@@ -7,7 +7,7 @@ from streamlit_image_coordinates import streamlit_image_coordinates
 # Load color dataset
 @st.cache_data
 def load_colors():
-    df = pd.read_csv("colors.csv")
+    df = pd.read_csv("C:\color-detector\colors.csv")
     return df
 color_data = load_colors()
 st.write("🎨 Loaded Color Data Sample:")
